@@ -1,0 +1,29 @@
+.menu-tabs {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 30px;
+}
+
+.menu-tabs .menu {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    background: #e0e0e0;
+    padding: 30px 11px;
+    width: 10%;
+    margin-right: 5px;
+}
+
+.menu span {
+    font-size: 12px;
+}
+
+.menu i {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #428bca;
+}

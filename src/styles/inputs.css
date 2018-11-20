@@ -1,0 +1,19 @@
+.input-text, 
+.select-box,
+.date-box {
+    margin-top: 20px;
+}
+
+.input-text span:nth-child(1),
+.select-box span:nth-child(1),
+.date-box span:nth-child(1) {
+    font-size: 12px;
+    color: #428bca;
+}
+.error span{
+    color: red;
+}
+.error input,
+.error select{
+    border: solid 1px red;
+}

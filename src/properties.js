@@ -1,0 +1,36 @@
+export const properties = { 
+    apiHost:'http://flutech.hisigntech.com:81/',
+    getDepartmentList:'api/Accounts/GetDepartmentList',
+    getHodEmployees:'api/Accounts/GetHodEmployees',
+    getEmployeeList:'api/Accounts/GetEmployeeList',
+    getContractorsList:'api/Accounts/GetContractorsList',
+    getSiteList:'api/Accounts/GetSitesList',
+    getUserTypes:'api/Accounts/GetUserTypes',
+    getEmployeeTypes:'api/Accounts/GetEmployeeTypes',
+    addContractor:'api/Accounts/AddContractor',
+    addSupplier:'api/Accounts/AddSupplier',
+    getSupplierList:'api/Accounts/GetSupplierList',
+    addDepartment:'api/Accounts/AddDepartment',
+    addSite:'api/Accounts/AddSite',
+    addEmployee:'api/Accounts/AddEmployee',
+    loginUser:'api/Accounts/UserLogin',
+    forgotPassword: 'api/Accounts/ForgotPasscode',
+
+    addTask:'api/AssignTask/CreateAssignTask',
+    getMyTasksById:'api/AssignTask/GetAssignedTaskListToUserId',
+    getCreatedTasksById:'api/AssignTask/GetMyTaskList',
+    taskReminder: 'api/AssignTask/AddTaskRemainder',
+    statusHistory: 'api/AssignTask/AddTaskStatusHistory',
+    forwordTask: 'api/AssignTask/AddTaskForwordHistory',
+    commentTask: 'api/AssignTask/AddTaskNotification',
+
+    getMaterialSearch: 'api/Intent/GetMaterialsSearch',
+    getMaterialType:'api/Intent/GetMaterialsSearchByType',
+    addIntent: 'api/Intent/AddNewIntent',
+    getIntentBySiteId: 'api/Intent/GetIntentListBySiteId',
+    getIntentById: 'api/Intent/GetIntentListByIntentId',
+    intentStatus: 'api/Intent/AddIntentStatusHistory',
+
+    getEmailList: 'api/Accounts/GetEmployeeEmailList',
+    sendMail: 'api/Accounts/SentMailToMailIds'
+}

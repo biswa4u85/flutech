@@ -1,0 +1,445 @@
+@import 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+
+.login-container > div{
+    display: inline-block;
+    width: 50%;
+}
+
+.login-field-container {
+    vertical-align: top;
+}
+
+.login-field-container > div {
+    margin-left: 40px;
+    margin-top: 25%;
+}
+
+.remember-check {
+    margin-left: -1px;
+    margin-top: 15px;
+}
+
+.remember-text,
+.forgot-pwd {
+    font-size: 12px;
+    color: #428bca;
+}
+
+.forgot-pwd {
+    margin-left: 47px;
+    cursor: pointer;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+.data-container {
+    width: 77%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.data-container .field-container {
+    display: inline-grid;
+    width: 35%;
+}
+
+.emp-container .field-container {
+    width: 30%;
+}
+
+.main-menu-name {
+    font-size: 15px;
+}
+
+.welcome-text {
+    font-size: 25px;
+    color: #428bca;
+}
+
+.table-heading {
+    color: #428bca;
+    font-weight: 500;
+}
+
+.data-table {
+    border: 1px solid #428bca;
+    border-collapse: collapse;
+    text-align: left;
+    width: 95%;
+    font-size: 14px;
+}
+
+.data-table th {
+    border-bottom: 1px solid #428bca;
+    color: #428bca;
+    font-size: 13px;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 5px;
+}
+
+.data-table input[type='button'].button-light {
+    width: auto;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+}
+
+.loader .fas {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+.loader .fas {
+    font-size: 100px;
+    color: #1673c3;
+}
+
+span.fas,
+span.far {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #1673c3;
+}
+
+.add-intent-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input[type='text'],
+input[type='time'],
+input[type='password'],
+select,
+input[type='date'],
+textarea {
+    width: 250px;
+    border: 1px solid #428bca;
+    padding: 10px;
+    outline: none;
+    margin-top: 4px;
+}
+
+select {
+    width: 270px;
+    height: 35px;
+}
+.login-loader {
+    display: inline-flex;
+    vertical-align: top;
+    margin-left: -25%;
+}
+
+.login-container .btn-signin {
+    width: 270px;
+}
+
+input[type='button'] {
+    margin-top: 30px;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    background: #428bca;
+    color: #fff;
+    border: 1px solid #428bca;
+    cursor: pointer;
+}
+
+textarea {
+    height: 100px;
+}
+
+.header {
+    background: #e0e0e0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+.header div {
+    display: inline-block;
+    width: 49%;
+}
+.header img {
+    width: 165px;
+    margin-left: 40px;
+}
+.header .user-details {
+    text-align: right;
+    vertical-align: top;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #428bca;
+}
+
+.user-details .img-con {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #428bca;
+}
+
+.success-box {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.error-box {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.success-box, .error-box {
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    right: 15%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 200;
+}
+
+.overlay-container {
+    background: #ffffff;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.overlay-container .close {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.overlay-container .field-container {
+    display: inline-grid;
+    width: 33%;
+    vertical-align: top;
+}
+
+.button-field-container {
+    display: inline-grid;
+    width: 33%;
+    vertical-align: bottom;
+}
+
+.overlay-container .field-container input[type='text'],
+.overlay-container .field-container .date-box,
+.overlay-container .field-container .input-text,
+.overlay-container .field-container .select-box {
+    margin-top: 0px;
+}
+
+.overlay-container .field-container input[type='button'] {
+    margin-top: 20px;
+}
+
+.mailer textarea {
+    width: 96%;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.mailer input[type='button'] {
+    float: right;
+    margin-right: 20px;
+}
+
+.review textarea {
+    height: 75px;
+    width: 60%;
+}
+
+.review .field-container {
+    width: 30%;
+}
+
+.review-text {
+    font-size: 13px;
+    padding: 10px;
+    color: #ffffff;
+    background: #1673c3;
+}
+
+.view-intent .field-container {
+    width: 40%;
+}
+
+.view-intent p {
+    margin: 6px;
+    color: #428bca;
+    font-size: 17px;
+}
+
+.intent-list-fields {
+    display: flex;
+}
+
+.intent-list-fields select,
+.intent-list-fields input[type='date'] {
+    width: 240px;
+    margin-right: 10px;
+}
+
+.intent-list .data-table .button-light {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.view-intent-buttons {
+    float: right;
+}
+
+input[type='button'].button-light {
+    background: #ffffff;
+    color: #428bca;
+    margin-right: 10px;
+}
+
+.create-intent-container .field-container {
+    width: 33%;
+}
+
+.autocomp-input-text {
+    position: relative;
+    margin-top: 20px;
+}
+
+.autocomp-input-text span {
+    font-size: 12px;
+    color: #428bca;
+}
+
+.auto-complete {
+    width: 272px;
+    background: #efefef;
+    border-radius: 10px;
+    height: 150px;
+    overflow: scroll;
+    position: absolute;
+}
+
+.auto-complete li {
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.auto-complete li.active {
+    background: #a5a5a5
+}
+
+.close-auto-complete {
+    border-bottom: 1px solid #ccc;
+}
+.close-auto-complete i{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+
+.display-none {
+    display: none;
+}
+
+.employee-container .field-container {
+    width: 25%;
+}
+
+.employee-container input[type='text'],
+.employee-container input[type='password'],
+.employee-container select,
+.employee-container input[type='date'],
+.employee-container textarea {
+    width: 70%;
+}
+.employee-container select {
+    width: 70%;
+}
+
+.employee-container .input-text,
+.employee-container .select-box,
+.employee-container .date-box {
+    margin-top: 10px;
+}
+
+.emp-loader {
+    position: relative;
+}
+.emp-loader .loader {
+    position: absolute;
+    width: 100%;
+}
+
+.forgot-loader {
+    position: relative;
+}
+.forgot-loader .loader {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 30px;
+}
+#alertBox {
+    margin-top: 5%;
+    right: 10%;
+}
+
+.forgot-container {
+    width: 41%;
+    border: 1px solid #ccc;
+    padding: 30px;
+    position: relative;
+}
+
+.forgot-container .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mail-loader {
+    position: relative;
+}
+.mail-loader .loader {
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+.disabled{
+    background-color: #fff;
+    border: none !important;
+    outline: none;
+}
